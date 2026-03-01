@@ -1,0 +1,192 @@
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f6fa;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+header {
+  background: white;
+  text-align: center;
+  padding: 40px 20px;
+  border-bottom: 3px solid #0d1b2a;
+}
+
+.logo {
+  max-width: 650px;
+  width: 90%;
+  height: auto;
+}
+
+nav {
+  background: #0d1b2a;
+  text-align: center;
+  padding: 12px;
+}
+
+nav a {
+  color: white;
+  margin: 0 18px;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+nav a:hover {
+  color: #d0006f;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+h1, h2, h3 {
+  color: #0d1b2a;
+}
+
+.schedule-day {
+  margin-top: 30px;
+  padding: 20px;
+  background: white;
+  border-left: 5px solid #d0006f;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+footer {
+  margin-top: 60px;
+  padding: 25px;
+  background: #0d1b2a;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+
+nav a {
+  padding: 10px 18px;
+  text-decoration: none;
+  color: #c4c2c2;
+  border-radius: 8px;
+  transition: all 0.25s ease;
+}
+
+/* Hover bonito */
+nav a:hover {
+  background: #f0f4ff;
+  color: #0b3d91;
+}
+
+/* Aba ativa */
+nav a.active {
+  background: linear-gradient(135deg, #0b9164, #1e6bff);
+  color: white;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.obs {
+  color: #777;
+  font-size: 0.9em;
+}
+
+.card {
+  background: #f7f9ff;
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+}
+
+
+/* HERO HEADER */
+
+.hero-header {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #0b3d91, #1e6bff);
+  color: white;
+}
+
+.hero-header .logo {
+  width: 120px;
+  margin-bottom: 15px;
+}
+
+.hero-text h1 {
+  margin: 10px 0 5px;
+  font-size: 2.2rem;
+}
+
+.hero-text .date {
+  display: block;
+  margin-top: 8px;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+/* CARROSSEL */
+
+.carousel-section {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+  border-radius: 14px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.carousel-image {
+  width: 100%;
+  display: none;
+  transition: opacity 1s ease-in-out;
+}
+
+.carousel-image.active {
+  display: block;
+}
+
+/* INTRO */
+
+.intro {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.intro h2 {
+  margin-bottom: 15px;
+}
+
+/* CARROSSEL ELEGANTE */
+
+.carousel-section {
+  margin: 10px auto;
+  max-width: 350px; /* controla o tamanho */
+  padding: 5px;
+}
+
+.carousel-container {
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 1s ease-in-out;
+}
+
+.carousel-track img {
+  width: 100%;
+  height: auto;           /* mantém proporção natural */
+  flex-shrink: 0;
+  object-fit: contain;    /* adapta PNG sem cortar */
+  background: #fff;
+}
